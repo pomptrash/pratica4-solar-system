@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+    <!-- animation lib -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+
+    <title>Planetas</title>
+</head>
+<body>
+    <!-- Ordem do maior para o menor -->
+    <!--  Júpiter, Saturno, Netuno, Urano, Terra, Vênus, Marte e Mercúrio. -->
+
+    <div class="main text-light">
+        <div class="solar-system mt-5 mb-5 m-auto">
+            <h1 class="mt-3">Solar System</h1>
+            <img id="solar-system-img" src="images/solar-system.png" alt="solar system">
+            <p class="sun-description">
+                The Solar System is located in the Milky Way, a barred spiral galaxy with a diameter of about 100,000 light-years containing more than 100 billion stars. The Sun resides in one of the Milky Way's outer spiral arms, known as the Orion–Cygnus Arm or Local Spur. The Sun lies about 26,660 light-years from the Galactic Center, and its speed around the center of the Milky Way is about 220 km/s, so that it completes one revolution every 240 million years. This revolution is known as the Solar System's galactic year. The solar apex, the direction of the Sun's path through interstellar space, is near the constellation Hercules in the direction of the current location of the bright star Vega. The plane of the ecliptic lies at an angle of about 60° to the galactic plane.
+
+                The Solar System's location in the Milky Way is a factor in the evolutionary history of life on Earth. Its orbit is close to circular, and orbits near the Sun are at roughly the same speed as that of the spiral arms. Therefore, the Sun passes through arms only rarely. Because spiral arms are home to a far larger concentration of supernovae, gravitational instabilities, and radiation that could disrupt the Solar System, this has given Earth long periods of stability for life to evolve. However, the changing position of the Solar System relative to other parts of the Milky Way could explain periodic extinction events on Earth, according to the Shiva hypothesis or related theories, but this remains controversial.
+
+                The Solar System lies well outside the star-crowded environs of the galactic centre. Near the centre, gravitational tugs from nearby stars could perturb bodies in the Oort cloud and send many comets into the inner Solar System, producing collisions with potentially catastrophic implications for life on Earth. The intense radiation of the galactic centre could also interfere with the development of complex life. Stellar flybys that pass within 0.8 light-years of the Sun occur roughly once every 100,000 years. The closest well-measured approach was Scholz's Star, which approached to 52+23
+                −14 kAU of the Sun some 70+15
+                −10 kya, likely passing through the outer Oort cloud.
+            </p>
+        </div>
+        
+        <div class="sun-item text-center mt-5 mb-5 m-auto">
+           <h1>Sun</h1>
+            <img class="sun-img d-block w-10 m-auto mb-5" src="images/sun.gif" alt="sun">
+            <p class="sun-description">
+                The Sun, also referred to as "Sol", is the star at the center of the Solar System. Sun's mass accounts for some 99.86% of the total mass of the Solar System.
+
+                It is a nearly perfect ball of hot plasma, heated to incandescence by nuclear fusion reactions in its core. The Sun radiates this energy mainly as light, ultraviolet, and infrared radiation, and is the most important source of energy for life on Earth.
+
+                The mean distance of the Sun from the Earth is approximately 149.6 million kilometres (1Â AU). On average, it takes light from the Sun about 8 minutes and 19 seconds to reach the Earth.
+
+                The Sun has eight known planets orbiting around it. This includes four terrestrial planets (Mercury, Venus, Earth, and Mars), two gas giants (Jupiter and Saturn), and two ice giants (Uranus and Neptune).
+            </p>
+        </div>
+
+        <div id="carouselExampleInterval" class="carousel slide mb-5" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                
+                <div id="mercury" class="carousel-item active text-center text-light" data-bs-interval="10000">
+                    <h1>Mercury</h1>
+                    <img src="./images/mercury.gif" class="d-block w-10 m-auto mb-5" alt="mercurio">
+                    <span class="swipe-span">
+                        <i class="bi bi-arrow-left"></i>
+                        swipe
+                        <i class="bi bi-arrow-right"></i>
+                    </span>
+                    <p class="description">
+                        Mercury is the smallest planet in the Solar System and the closest to the Sun. Its orbit around the Sun takes 87.97 Earth days, the shortest of all the Sun's planets. It is named after the Roman god Mercurius (Mercury), god of commerce, messenger of the gods, and mediator between gods and mortals, corresponding to the Greek god Hermes (Ἑρμῆς).
+                    </p>
+            </div>
+
+            <div id="venus" class="carousel-item text-center text-light" data-bs-interval="10000">
+                    <h1>Venus</h1>
+                    <img src="./images/venus.gif" class="d-block w-10 m-auto mb-5" alt="venus">
+                    <span class="swipe-span">
+                        <i class="bi bi-arrow-left"></i>
+                        swipe
+                        <i class="bi bi-arrow-right"></i>
+                    </span>
+                    <p class="description">Venus is the second planet from the Sun, orbiting it the closest to Earth. It is sometimes called Earth's "sister" or "twin" planet as it is almost as large and has a similar composition. Venus, like Mercury, appears in Earth's sky never far from the Sun, either as morning star or evening star with a synodic period of 1.6 years. It is, after the Moon, the brightest natural object in Earth's sky, capable of casting visible shadows on Earth at dark conditions and being visible to the naked eye in broad sunlight.</p>
+            </div>
+
+            <div id="earth" class="carousel-item text-center text-light" data-bs-interval="10000">
+                    <h1>Earth</h1>
+                    <img src="./images/earth.gif" class="d-block w-10 m-auto mb-5" alt="terra">
+                    <span class="swipe-span">
+                        <i class="bi bi-arrow-left"></i>
+                        swipe
+                        <i class="bi bi-arrow-right"></i>
+                    </span>
+                    <p class="description">
+                        Earth is the third planet from the Sun and the only astronomical object known to harbor life. While large volumes of water can be found throughout the Solar System, only Earth sustains liquid surface water. About 71% of Earth's surface is made up of the ocean, dwarfing Earth's polar ice, lakes, and rivers. The remaining 29% of Earth's surface is land, consisting of continents and islands. Earth's surface layer is formed of several slowly moving tectonic plates, interacting to produce mountain ranges, volcanoes, and earthquakes. Earth's liquid outer core generates the magnetic field that shapes Earth's magnetosphere, deflecting destructive solar winds.
+                    </p>
+            </div>
+
+            <div id="mars" class="carousel-item text-center text-light" data-bs-interval="10000">
+                <h1>Mars</h1>
+                <img src="./images/mars.gif" class="d-block w-10 m-auto mb-5" alt="marte">
+                <span class="swipe-span">
+                    <i class="bi bi-arrow-left"></i>
+                    swipe
+                    <i class="bi bi-arrow-right"></i>
+                </span>
+                <p class="description">
+                    Mars is the fourth planet from the Sun and the second-smallest planet in the Solar System, being larger than only Mercury. In the English language, Mars is named for the Roman god of war. Mars is a terrestrial planet with a thin atmosphere (less than 1% that of Earth's), and has a crust primarily composed of elements similar to Earth's crust, as well as a core made of iron and nickel. Mars has surface features such as impact craters, valleys, dunes, and polar ice caps. It has two small and irregularly shaped moons: Phobos and Deimos.
+                </p>
+            </div>
+
+            <div id="jupiter" class="carousel-item text-center text-light" data-bs-interval="10000">
+                <h1>Jupiter</h1>
+                <img src="./images/jupiter.gif" class="d-block w-10 m-auto mb-5" alt="jupiter">
+                <span class="swipe-span">
+                    <i class="bi bi-arrow-left"></i>
+                    swipe
+                    <i class="bi bi-arrow-right"></i>
+                </span>
+                <p class="description">
+                    Jupiter is the fifth planet from the Sun and the largest in the Solar System. It is a gas giant with a mass more than two and a half times that of all the other planets in the Solar System combined, but slightly less than one-thousandth the mass of the Sun. Jupiter is the third brightest natural object in the Earth's night sky after the Moon and Venus, and it has been observed since prehistoric times. It was named after the Roman god Jupiter, the king of the gods.
+                </p>
+            </div>
+            <div id="saturn" class="carousel-item text-center text-light" data-bs-interval="10000">
+                <h1>Saturn</h1>
+                <img src="./images/saturn.gif" class="d-block w-10 m-auto mb-5" alt="saturno">
+                <span class="swipe-span">
+                    <i class="bi bi-arrow-left"></i>
+                    swipe
+                    <i class="bi bi-arrow-right"></i>
+                </span>
+                <p class="description">
+                    Saturn is the sixth planet from the Sun and the second-largest in the Solar System, after Jupiter. It is a gas giant with an average radius of about nine and a half times that of Earth. It has only one-eighth the average density of Earth; however, with its larger volume, Saturn is over 95 times more massive.
+                </p>
+            </div>
+
+            <div id="uranus" class="carousel-item text-center text-light" data-bs-interval="10000">
+                <h1>Uranus</h1>
+                <img src="./images/uranus.gif" class="d-block w-10 m-auto mb-5" alt="urano">
+                <span class="swipe-span">
+                    <i class="bi bi-arrow-left"></i>
+                    swipe
+                    <i class="bi bi-arrow-right"></i>
+                </span>
+                <p class="description">
+                    Uranus is the seventh planet from the Sun. Its name is a reference to the Greek god of the sky, Uranus (Caelus), who, according to Greek mythology, was the great-grandfather of Ares (Mars), grandfather of Zeus (Jupiter) and father of Cronus (Saturn). It has the third-largest planetary radius and fourth-largest planetary mass in the Solar System. Uranus is similar in composition to Neptune, and both have bulk chemical compositions which differ from that of the larger gas giants Jupiter and Saturn. For this reason, scientists often classify Uranus and Neptune as "ice giants" to distinguish them from the other giant planets.
+                </p>
+            </div>
+
+            <div id="neptune" class="carousel-item text-center text-light" data-bs-interval="10000">
+                <h1>Neptune</h1>
+                <img src="./images/neptune.gif" class="d-block w-10 m-auto mb-5"alt="Netuno">
+                <span class="swipe-span">
+                    <i class="bi bi-arrow-left"></i>
+                    swipe
+                    <i class="bi bi-arrow-right"></i>
+                </span>
+                <p class="description">
+                    Neptune is the eighth planet from the Sun and the farthest known solar planet. In the Solar System, it is the fourth-largest planet by diameter, the third-most-massive planet, and the densest giant planet. It is 17 times the mass of Earth, and slightly more massive than its near-twin Uranus. Neptune is denser and physically smaller than Uranus because its greater mass causes more gravitational compression of its atmosphere. It is referred to as one of the solar system's two ice giant planets (the other one being Uranus). Being composed primarily of gases and liquids, it has no well-defined "solid surface". The planet orbits the Sun once every 164.8 years at an average distance of 30.1 AU (4.5 billion km; 2.8 billion mi). It is named after the Roman god of the sea and has the astronomical symbol ♆, representing Neptune's trident.
+                </p>
+            </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next </span>
+                </button>
+            </div>
+        </div>
+
+    </div>
+
+
+    <footer class="text-center text-light m-3 m-auto">
+        <p>&copy pomptrash</p>
+    </footer>
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> 
+
+    <!-- animation lib -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+</html>
